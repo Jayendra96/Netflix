@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.whole-page{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0,0,0.7),rgba(0, 0,0,0.7)),url("https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/04/ntflxx-1540x866.png");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+}
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content:center ;
+    padding: 30px;
+}
+img{
+    width: 150px;
+    height: 50px;
+}
+.buttons{
+    padding: 30px;
+    width: 60%;
+    text-align: right;
+}
+button{
+    background: red;
+    margin-left: 12px;
+    padding: 8px 14px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 80%;
+}
+main p{
+    margin: 13px;
+}
+h1{
+    font-size: 55px;
+}
+.para-1{
+    font-size: 28px;
+}
+.para-2{
+    font-size: 23px;
+}
